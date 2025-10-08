@@ -11,6 +11,5 @@ def countNode(root):
     
     leftNodes = countNode(root.left)
     rightNodes = countNode(root.right)
-
-    return leftNodes + rightNodes + 1
-    
+  
+    return leftNodes + rightNodes + 1 
